@@ -3,20 +3,20 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 
 const generateLogo = ({ characterSelect, textColor, shapeSelect, shapeColor}) =>
-`${characterSelect}
+`<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
 
-${textColor}
+<${shapeSelect} cx="150" cy="100" r="80" fill="${shapeColor}" />
 
-${shapeSelect}
+<text x="150" y="125" font-size="60" text-anchor="middle" fill="${textColor}">${characterSelect}</text>
 
-${shapeColor}
+</svg>
 `;
 
 const questions = [
   {
     type: 'input',
     name: 'characterSelect',
-    message: 'Please enter 3 characters for the logo', 
+    message: 'Please enter up to 3 characters for the logo', 
   },
   {
     type: 'input',
@@ -25,14 +25,15 @@ const questions = [
 
   },
   {
-    type: 'input',
+    type: 'list-input',
     name: 'shapeSelect',
-    message: 'Please select shape',
+    message: 'Please select from the following list: circle, triangle, or square',
+    choices: ['circle', 'triangle', 'square']
   },
   {
     type: 'input',
     name: 'shapeColor',
-    message: 'Please enter color name or hexadecimal color doce for shape color.',
+    message: 'Please enter color name or hexadecimal color code for shape color.',
 
   },
 ];
