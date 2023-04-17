@@ -37,6 +37,7 @@ logo must be 300 X 200 pixel image that matches criteria input by user. */
 // require jest and inquirer 
 // the following will probably a some type of loop? 
 // prompt for 3 characters for logo text when complete NEXT call 
+        // how do i add a condition that limits user input to 3 characters? 
 //prompt for color then next call 
 // prompt to select shape from list - circle, triangle or square when complete NEXT call 
 // prompt for color then generate file. 
