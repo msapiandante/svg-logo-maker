@@ -37,5 +37,5 @@ SOFTWARE.
 
 
 ## Tests
-
-//enter video link here 
+Link to video walkthrough 
+https://drive.google.com/file/d/1mRDH-JljqrIIPjstuDzMQLz9-nDu3-kX/view
