@@ -2,11 +2,13 @@
 
 ## Description
 
-I was tasked with building a Node.js command-line application that takes in user input to generate a logo and save it as a .svg file. I learned how to navigate Node.js and how to //enter notes from course map here 
+I was tasked with building a Node.js command-line application that takes in user input to generate a logo and save it as a .svg file. I continued to learn how to navigate node.js. I learned how to create new objects using constructor functions as well as implement classes to create new instances of objects. 
 
 
 ## Credits
-Shout out to my instructor Leif and TA Fred for offering their time, patience and encouragement as I continue to adopt a growth mindset and learn new skills.  
+Shout out to my instructor Leif and TA Fred for offering their time, patience and encouragement as I continue to practice a growth mindset. 
+https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial
+https://www.w3schools.com/graphics/svg_intro.asp
 
 
 ## License
